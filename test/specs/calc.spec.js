@@ -14,12 +14,12 @@
             expect(window.calc.sum).to.be.a('function')
         });
 
-        describe('factorial', function() {
 
-            it('should have a sum of 17', function() {
-                var result = window.hello.sum();
-                expect(result).to.equal('17')
-            })
+        it('Testing an Array', function() {
+            it('Gets result of the added numbers inside array.', function() {
+                var result = window.calc.sum(3,5,9);
+                expect(result).to.equal('17');
+            });
         });
 
     });
